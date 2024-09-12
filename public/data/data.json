@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "project": {
+    "calendar": "workhours"
+  },
+  "calendars": {
+    "rows": [
+      {
+        "id": "workhours",
+        "name": "Working hours"
+      }
+    ]
+  },
+  "resources": {
+    "rows": [
+      {
+        "id": "1",
+        "name": "John Brown",
+        "team": "Team 1"
+      },
+      {
+        "id": "2",
+        "name": "Stacy Blue",
+        "team": "Team 1"
+      },
+      {
+        "id": "3",
+        "name": "Alison Green",
+        "team": "Team 1"
+      },
+      {
+        "id": "4",
+        "name": "Peter White",
+        "team": "Team 2"
+      },
+      {
+        "id": "5",
+        "name": "Nick Purple",
+        "team": "Team 2"
+      }
+    ]
+  },
+  "events": {
+    "rows": [
+      {
+        "id": "1",
+        "name": "Test",
+        "startDate": "2024-09-10T13:00:00",
+        "endDate": "2024-09-10T15:00:00",
+        "percentDone": "23",
+        "note": "test Notes"
+      }
+    ]
+  },
+  "assignments": {
+    "rows": [
+      {
+        "id": 1,
+        "event": 1,
+        "resource": 1
+      }
+    ]
+  }
+}
